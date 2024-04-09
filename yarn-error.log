@@ -1,0 +1,56 @@
+Arguments: 
+  /root/.nvm/versions/node/v16.14.2/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/root/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/DirectEd Student/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/DirectEd Student/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/DirectEd Student/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/DirectEd Student/AppData/Roaming/npm:/mnt/c/MinGW/bin:/mnt/c/Users/DirectEd Student/AppData/Local/Programs/mongosh/:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.28.34:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+
+npm manifest: 
+  {
+    "name": "hardhat-simple-storage-fcc",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-verify": "^2.0.3",
+      "@nomiclabs/hardhat-ethers": "^2.0.4",
+      "@nomiclabs/hardhat-etherscan": "^3.0.0",
+      "@nomiclabs/hardhat-waffle": "^2.0.2",
+      "chai": "^4.3.4",
+      "ethereum-waffle": "^3.4.0",
+      "ethers": "^5.5.3",
+      "hardhat": "^2.8.3",
+      "hardhat-gas-reporter": "^1.0.7",
+      "solidity-coverage": "^0.7.18"
+    },
+    "dependencies": {
+      "dotenv": "^14.2.0",
+      "prettier-plugin-solidity": "^1.0.0-beta.19"
+    },
+    "scripts": {
+      "lint": "yarn prettier --check .",
+      "lint:fix": "yarn prettier --write ."
+    },
+    "description": "This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course.",
+    "version": "1.0.0",
+    "directories": {
+      "test": "test"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
